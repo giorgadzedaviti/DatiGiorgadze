@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task03 3x3 matrix(different formula)", "Task03 3x3 matrix(different formula)\Task03 3x3 matrix(different formula).csproj", "{A144A7B0-351E-49A0-AA9A-FEC4027D55BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A144A7B0-351E-49A0-AA9A-FEC4027D55BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A144A7B0-351E-49A0-AA9A-FEC4027D55BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A144A7B0-351E-49A0-AA9A-FEC4027D55BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A144A7B0-351E-49A0-AA9A-FEC4027D55BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E3F140F-A9BC-4D9A-A351-7EF088D59213}
+	EndGlobalSection
+EndGlobal
