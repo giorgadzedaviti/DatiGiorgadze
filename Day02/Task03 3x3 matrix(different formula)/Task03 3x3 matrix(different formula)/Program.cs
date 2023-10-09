@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 
 class Program
 {
@@ -33,7 +34,14 @@ class Program
             matrix[row, 4] = matrix[row, 2];
         }
 
-        // Calculate the determinant using the provided formula
+        //function that Calculates the determinant using the different formula
+        double determinant = (matrix[0, 0] * matrix[1, 1] * matrix[2, 2]) +
+                             (matrix[0, 1] * matrix[1, 2] * matrix[2, 3]) +
+                             (matrix[0, 2] * matrix[1, 3] * matrix[2, 4]) -
+                             (matrix[0, 4] * matrix[1, 3] * matrix[2, 2]) -
+                             (matrix[0, 3] * matrix[1, 2] * matrix[2, 1]) -
+                             (matrix[0, 2] * matrix[1, 1] * matrix[2, 0]);
+
         // Print the entered matrix with added columns
         Console.WriteLine("Entered 3x3 matrix with added columns:");
         for (int row = 0; row < 3; row++)
@@ -46,9 +54,7 @@ class Program
         }
 
         // Print the determinant
+        Console.WriteLine("Determinant: " + determinant);
         Console.ReadLine(); // Pause execution to see the result
     }
-
-
-    
 }
