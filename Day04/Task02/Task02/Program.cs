@@ -25,6 +25,7 @@ public static class Calculator
             return double.NaN; 
         }
 
+
         return a / b;
     }
 }
